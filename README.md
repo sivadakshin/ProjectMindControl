@@ -69,5 +69,3 @@ Contains the GUI for the Wave Charts.
 Contains all static methods. Updates the GUI of LiveChart.
 10. Debug.java-
 Contains the GUI of Debug window called by debug button. Shows all log info.
-
-
