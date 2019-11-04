@@ -50,18 +50,18 @@ the wave data. on receiving EEG datafrom Think gear connector, the ThinkGear.jar
 in EegMachine.java which adds the data to its static variables.
 3. Cloud.java-
 It is a Generic interface, implementing a cloud service should implement this interface.
-4. <cloudservicename>.java and <cloudservicename>view.java-
-Any cloud service we create must implement cloud and should have 2 classes, <cloudservicename>.java for it's data and contains
-the run method when the trigger id fired.<cloudservicename>view.java is configuration GUI which is a JFrame to get its configuration.
+4. cloudservicename.java and cloudservicenameView.java-
+Any cloud service we create must implement cloud and should have 2 classes, cloudservicename.java for it's data and contains
+the run method when the trigger id fired.cloudservicenameView.java is configuration GUI which is a JFrame to get its configuration.
 5. Trigger.java 
 represents a trigger. contains object of command interface and cloud interface. the trigger when enabled,
 calls the run method of its command object. the run method calls the fire method in trigger if the condition is 
 satisfied. Deletion/Modification of a trigger disables it.
 6. Command.java-
 It is a Generic interface, any command should be implementing this interface.
-7. <commandname>Command.java and <commandname>ConfigView.java
-any command should implement the command interface. a command contains 2 parts. <commandname>Command.java,
-which implements command cand contains data and run method.<commandname>ConfigView.java,
+7. commandnameCommand.java and commandnameConfigView.java
+any command should implement the command interface. a command contains 2 parts. commandnameCommand.java,
+which implements command cand contains data and run method. commandnameConfigView.java,
 which contains a GUI form to input configuration for the command.
 8. LiveChart.java-
 Contains the GUI for the Wave Charts.
