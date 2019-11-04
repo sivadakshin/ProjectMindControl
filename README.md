@@ -59,7 +59,7 @@ calls the run method of its command object. the run method calls the fire method
 satisfied. Deletion/Modification of a trigger disables it.
 6. Command.java-
 It is a Generic interface, any command should be implementing this interface.
-7. commandnameCommand.java and commandnameConfigView.java
+7. commandnameCommand.java and commandnameConfigView.java-
 any command should implement the command interface. a command contains 2 parts. commandnameCommand.java,
 which implements command cand contains data and run method. commandnameConfigView.java,
 which contains a GUI form to input configuration for the command.
