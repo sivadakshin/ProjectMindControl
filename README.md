@@ -16,12 +16,16 @@ Please read LICENSE.txt for this software license
 
 This Project have the following Dependencies
 make sure you download the following dependencies. and add to the classpath in netbeans.
+
 XChart library-to draw EEG waves
 https://github.com/knowm/XChart
+
 XChart Demo library	-to draw EEG waves
 https://github.com/knowm/XChart
-ThinkGear.jar 		-this one is a third party library to interface with thinkgear connector(modify the method calls according to this project).
+
+ThinkGear.jar 		-library to interface with thinkgear connector(modify the method calls according to this project).
 https://github.com/borg/ThinkGear-Java-socket
+
 Working Of the software-
 1.	User should click the connect button on the left panel to connect to the EEG-Machine.
 2.  ThinkGear connector software must be running. it can be downloaded from neurosky website. 
