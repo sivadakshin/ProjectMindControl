@@ -1,3 +1,4 @@
+Update to Readme file
 # ProjectMindControl
 A software to control smart devices using neurosky EEG sensors.
 Description-
