@@ -1,4 +1,4 @@
-The software is in beta version
+this is an example
 # ProjectMindControl
 A software to control smart devices using neurosky EEG sensors.
 Description-
