@@ -1,4 +1,4 @@
-Update to Readme file
+The software is in beta version
 # ProjectMindControl
 A software to control smart devices using neurosky EEG sensors.
 Description-
